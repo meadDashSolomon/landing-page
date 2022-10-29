@@ -1,9 +1,95 @@
-ul, 
-a {
+body {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+ul {
     list-style: none;
+    display: flex;
+    margin-top: 0;
+    gap: 20px;
+}
+
+a {
     text-decoration: none;
+    color: #e5e7eB;
 }
 
 .header {
     display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.top {
+    background-color: #1f2937;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    gap: 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    color: #f9fAf8;
+}
+
+.right {
+
+}
+
+.header-logo {
+    max-height: 25px;
+}
+
+button {
+    max-width: 90px;
+    background-color: #3882f6;
+    color: #e5e7eB;
+}
+
+h1 {
+    max-width: 300px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info-b {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 45px;
+    text-align: center;
+}
+
+.info-c {
+    max-width: 150px;
+}
+
+.infopic {
+    height: 150px;
+    width: 150px;
 }
