@@ -36,8 +36,8 @@ a {
 .left {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
     color: #f9fAf8;
+    margin-right: 40px;
 }
 
 .right {
@@ -49,13 +49,17 @@ a {
 }
 
 button {
-    max-width: 90px;
+    width: 130px;
     background-color: #3882f6;
     color: #e5e7eB;
+    font-weight: bolder;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 h1 {
-    max-width: 300px;
+    max-width: 350px;
     font-size: 48px;
     font-weight: bolder;
 }
@@ -75,6 +79,7 @@ h1 {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin: 20px 0;
 }
 
 .info-b {
@@ -83,6 +88,7 @@ h1 {
     padding: 25px;
     gap: 45px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .info-c {
@@ -92,4 +98,30 @@ h1 {
 .infopic {
     height: 150px;
     width: 150px;
+}
+
+p {
+    max-width: 430px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eB;
+    align-items: center;
+    justify-content: center;
+}
+
+.words {
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+.thor {
+    margin-left: 600px;
+    font-weight: bolder;
+    margin-bottom: 100px;
 }
